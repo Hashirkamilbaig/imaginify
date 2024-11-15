@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { IBM_Plex_Sans } from "next/font/google" 
 import { cn } from "@/lib/utils";
