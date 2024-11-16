@@ -1,8 +1,18 @@
-import React from 'react'
+import { SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+    <SignedOut>
+      <SignIn routing="hash"/>
+    </SignedOut>
+    <SignedIn>
+      <header>
+      <UserButton />
+      </header>
+      Home
+    </SignedIn>
+    </div>
   )
 }
 
