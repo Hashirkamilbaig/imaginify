@@ -7,9 +7,6 @@ const Home = () => {
       <SignIn routing="hash"/>
     </SignedOut>
     <SignedIn>
-      <header>
-      <UserButton />
-      </header>
       Home
     </SignedIn>
     </div>
