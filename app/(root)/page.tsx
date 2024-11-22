@@ -1,4 +1,4 @@
-import { SignIn, SignedIn, SignedOut} from '@clerk/nextjs'
+import { SignIn, SignedIn, SignedOut, UserProfile} from '@clerk/nextjs'
 
 const Home = () => {
   return (
